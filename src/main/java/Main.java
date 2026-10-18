@@ -1,11 +1,15 @@
 import graph.Graph;
+import dsu.DisjointSet;
 
 public class Main {
-    static void main(String[] args) {
-        Graph g = new Graph(4, false);
-        g.addEdge(0, 1, 5);
-        g.addEdge(1, 2, 3);
-        System.out.println(g.getEdgeCount());
-        System.out.println(g.getNeighbors(1));
+    public static void main(String[] args) {
+        DisjointSet ds = new DisjointSet(5);
+        System.out.println(ds.union(0, 1));
+        System.out.println(ds.union(2, 3));
+        System.out.println(ds.union(1, 0));
+        System.out.println(ds.union(1, 3));
+        System.out.println(ds.getComponents());
+        System.out.println(ds.connected(0, 3));
+        System.out.println(ds.connected(4, 0));
     }
 }
