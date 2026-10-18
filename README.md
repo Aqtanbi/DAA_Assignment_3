@@ -40,3 +40,14 @@ the result is a spanning forest (connected = false).
 
 Results are returned in MSTResult: chosen edges, total weight, connectivity flag and
 operation counters (edge examinations, sort comparisons, DSU operations).
+
+### Prim (package mst)
+
+Prim grows one tree from a start vertex. A PriorityQueue holds the edges leaving the tree;
+the cheapest edge is taken, and edges leading to an already visited vertex are skipped
+(lazy version, no decrease-key). If the graph is disconnected, Prim restarts from the next
+unvisited vertex, so the result is a spanning forest with the same total weight as Kruskal's.
+
+Prim returns the same MSTResult as Kruskal. Edge examinations count all edges looked at
+while scanning neighbours, comparisons are counted inside the priority queue comparator,
+and DSU operations are 0.
