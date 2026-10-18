@@ -29,3 +29,14 @@ It returns true only if two different sets were actually merged.
 The class also counts components (starts at n, decreases on every successful merge)
 and three operation counters for the experiments: find calls, union calls and parent-pointer steps.
 Note that every union calls find twice, and those calls are included in the find counter.
+
+### Kruskal (package mst)
+
+Kruskal sorts a copy of the edge list by weight (the graph itself is not modified,
+so the algorithm can be repeated on the same graph) and goes through it with a DisjointSet.
+An edge is kept only if union merges two different components. The algorithm stops as soon as
+n-1 edges are chosen. If fewer than n-1 edges were chosen, the graph is disconnected and
+the result is a spanning forest (connected = false).
+
+Results are returned in MSTResult: chosen edges, total weight, connectivity flag and
+operation counters (edge examinations, sort comparisons, DSU operations).
