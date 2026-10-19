@@ -1,0 +1,26 @@
+| scenario | n | variant | steps | avg_time_us |
+|---|---|---|---|---|
+| chain | 100 | none | 4950 | 8.52 |
+| random | 100 | none | 15472 | 29.11 |
+| chain | 100 | compression only | 197 | 1.03 |
+| random | 100 | compression only | 1577 | 14.48 |
+| chain | 100 | union by size only | 196 | 1.03 |
+| random | 100 | union by size only | 1631 | 11.80 |
+| chain | 100 | both | 196 | 1.19 |
+| random | 100 | both | 1019 | 14.38 |
+| chain | 1000 | none | 499500 | 700.08 |
+| random | 1000 | none | 1127741 | 2035.73 |
+| chain | 1000 | compression only | 1997 | 10.93 |
+| random | 1000 | compression only | 17330 | 131.42 |
+| chain | 1000 | union by size only | 1996 | 9.99 |
+| random | 1000 | union by size only | 17923 | 177.86 |
+| chain | 1000 | both | 1996 | 12.91 |
+| random | 1000 | both | 10443 | 126.77 |
+| chain | 10000 | none | 49995000 | 71763.48 |
+| random | 10000 | none | 107555300 | 219767.98 |
+| chain | 10000 | compression only | 19997 | 103.05 |
+| random | 10000 | compression only | 220715 | 1651.08 |
+| chain | 10000 | union by size only | 19996 | 94.65 |
+| random | 10000 | union by size only | 192266 | 1696.95 |
+| chain | 10000 | both | 19996 | 113.93 |
+| random | 10000 | both | 105021 | 1529.09 |

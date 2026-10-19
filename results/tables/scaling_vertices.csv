@@ -1,0 +1,43 @@
+graph,V,E,algorithm,avg_time_us,edge_examinations,comparisons,dsu_ops,result
+scaleV,100,500,Kruskal,40.27,164,3827,492,weight=1170 connected=true
+scaleV,100,500,Prim,20.99,993,3742,0,weight=1170 connected=true
+scaleV,100,500,SCC,5.43,500,0,0,components=4 largest=97
+scaleV,100,500,Topo-DAG,3.15,1000,0,0,isDag=true valid=true
+scaleV,100,500,Topo-cyclic,0.66,515,0,0,isDag=false ordered=2/100
+scaleV,100,500,Dijkstra,13.96,485,1439,0,reachable=98 relaxations=141 heapOps=284
+scaleV,250,1250,Kruskal,132.19,658,11261,1974,weight=3194 connected=true
+scaleV,250,1250,Prim,123.17,2495,14733,0,weight=3194 connected=true
+scaleV,250,1250,SCC,12.49,1250,0,0,components=2 largest=249
+scaleV,250,1250,Topo-DAG,13.51,2500,0,0,isDag=true valid=true
+scaleV,250,1250,Topo-cyclic,1.75,1254,0,0,isDag=false ordered=1/250
+scaleV,250,1250,Dijkstra,38.91,1246,4927,0,reachable=249 relaxations=374 heapOps=750
+scaleV,500,2500,Kruskal,310.05,1358,24208,4074,weight=6474 connected=true
+scaleV,500,2500,Prim,292.08,4991,32475,0,weight=6474 connected=true
+scaleV,500,2500,SCC,33.77,2500,0,0,components=5 largest=496
+scaleV,500,2500,Topo-DAG,18.15,5000,0,0,isDag=true valid=true
+scaleV,500,2500,Topo-cyclic,3.36,2519,0,0,isDag=false ordered=3/500
+scaleV,500,2500,Dijkstra,116.66,2481,10423,0,reachable=497 relaxations=712 heapOps=1426
+scaleV,1000,5000,Kruskal,750.69,3356,50369,10068,weight=13123 connected=true
+scaleV,1000,5000,Prim,906.00,9997,85148,0,weight=13123 connected=true
+scaleV,1000,5000,SCC,61.81,5000,0,0,components=14 largest=987
+scaleV,1000,5000,Topo-DAG,53.57,10000,0,0,isDag=true valid=true
+scaleV,1000,5000,Topo-cyclic,5.42,5031,0,0,isDag=false ordered=8/1000
+scaleV,1000,5000,Dijkstra,298.40,4969,23478,0,reachable=992 relaxations=1410 heapOps=2822
+scaleV,2000,10000,Kruskal,1536.73,9602,103223,28806,weight=25355 connected=true
+scaleV,2000,10000,Prim,2396.27,19998,238873,0,weight=25355 connected=true
+scaleV,2000,10000,SCC,203.05,10000,0,0,components=29 largest=1972
+scaleV,2000,10000,Topo-DAG,118.56,20000,0,0,isDag=true valid=true
+scaleV,2000,10000,Topo-cyclic,19.19,10050,0,0,isDag=false ordered=9/2000
+scaleV,2000,10000,Dijkstra,548.02,9950,52543,0,reachable=1991 relaxations=2817 heapOps=5636
+scaleV,5000,25000,Kruskal,4390.84,22185,262527,66555,weight=62241 connected=true
+scaleV,5000,25000,Prim,7522.33,49999,634740,0,weight=62241 connected=true
+scaleV,5000,25000,SCC,571.08,25000,0,0,components=66 largest=4935
+scaleV,5000,25000,Topo-DAG,373.66,50000,0,0,isDag=true valid=true
+scaleV,5000,25000,Topo-cyclic,60.80,25183,0,0,isDag=false ordered=32/5000
+scaleV,5000,25000,Dijkstra,1668.41,24817,153673,0,reachable=4968 relaxations=7217 heapOps=14436
+scaleV,10000,50000,Kruskal,8617.34,44038,527352,132114,weight=125459 connected=true
+scaleV,10000,50000,Prim,14520.68,99996,1347123,0,weight=125459 connected=true
+scaleV,10000,50000,SCC,1207.88,50000,0,0,components=142 largest=9859
+scaleV,10000,50000,Topo-DAG,839.34,100000,0,0,isDag=true valid=true
+scaleV,10000,50000,Topo-cyclic,72.29,50391,0,0,isDag=false ordered=74/10000
+scaleV,10000,50000,Dijkstra,4639.99,49609,333357,0,reachable=9926 relaxations=14322 heapOps=28646

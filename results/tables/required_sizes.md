@@ -1,0 +1,20 @@
+| graph | V | E | algorithm | avg_time_us | edge_examinations | comparisons | dsu_ops | result |
+|---|---|---|---|---|---|---|---|---|
+| Small | 10 | 30 | Kruskal | 1.74 | 14 | 107 | 42 | weight=129 connected=true |
+| Small | 10 | 30 | Prim | 0.58 | 56 | 144 | 0 | weight=129 connected=true |
+| Small | 10 | 30 | SCC | 0.25 | 30 | 0 | 0 | components=3 largest=8 |
+| Small | 10 | 30 | Topo-DAG | 0.18 | 60 | 0 | 0 | isDag=true valid=true |
+| Small | 10 | 30 | Topo-cyclic | 0.06 | 35 | 0 | 0 | isDag=false ordered=1/10 |
+| Small | 10 | 30 | Dijkstra | 0.28 | 25 | 18 | 0 | reachable=9 relaxations=8 heapOps=18 |
+| Medium | 100 | 500 | Kruskal | 35.13 | 164 | 3827 | 492 | weight=1170 connected=true |
+| Medium | 100 | 500 | Prim | 11.74 | 993 | 3742 | 0 | weight=1170 connected=true |
+| Medium | 100 | 500 | SCC | 3.45 | 500 | 0 | 0 | components=4 largest=97 |
+| Medium | 100 | 500 | Topo-DAG | 2.03 | 1000 | 0 | 0 | isDag=true valid=true |
+| Medium | 100 | 500 | Topo-cyclic | 0.33 | 515 | 0 | 0 | isDag=false ordered=2/100 |
+| Medium | 100 | 500 | Dijkstra | 5.69 | 485 | 1439 | 0 | reachable=98 relaxations=141 heapOps=284 |
+| Large | 1000 | 5000 | Kruskal | 610.99 | 3356 | 50369 | 10068 | weight=13123 connected=true |
+| Large | 1000 | 5000 | Prim | 881.97 | 9997 | 85148 | 0 | weight=13123 connected=true |
+| Large | 1000 | 5000 | SCC | 100.32 | 5000 | 0 | 0 | components=14 largest=987 |
+| Large | 1000 | 5000 | Topo-DAG | 66.36 | 10000 | 0 | 0 | isDag=true valid=true |
+| Large | 1000 | 5000 | Topo-cyclic | 9.37 | 5031 | 0 | 0 | isDag=false ordered=8/1000 |
+| Large | 1000 | 5000 | Dijkstra | 305.30 | 4969 | 23478 | 0 | reachable=992 relaxations=1410 heapOps=2822 |
