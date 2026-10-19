@@ -35,7 +35,6 @@ assignment-3/
 │   ├── shortestpath/   DijkstraResult, Dijkstra
 │   ├── benchmark/      Benchmark (all experiments, writes CSV/Markdown tables)
 │   └── tests/          TestRunner (55 correctness checks, no external libraries)
-├── scripts/plot.py     builds the plots from the CSV tables
 ├── results/
 │   ├── tables/         CSV and Markdown tables with the measurements
 │   └── plots/          PNG plots
